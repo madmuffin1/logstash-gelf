@@ -1,6 +1,6 @@
 language: java
 install: make travis-install
-script: make test-coverage
+script: make test
 sudo: required
 dist: trusty
 group: edge
