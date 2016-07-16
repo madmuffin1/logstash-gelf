@@ -44,7 +44,7 @@ stop:
 	rm -f *.rdb
 
 
-test-coveralls:
+test-coverage:
 	make start
 	sleep 2
 	mvn -B -Dtest.withRedis=true clean compile cobertura:cobertura coveralls:report
